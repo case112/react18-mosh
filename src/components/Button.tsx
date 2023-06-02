@@ -9,7 +9,7 @@ interface Props {
 
 export const Button = ({ children, type = "primary", onClick }: Props) => {
   return (
-    <button type="button" className={"btn btn-" + type} onClick={onClick}>
+    <button type="button" className={" btn btn-" + type} onClick={onClick}>
       {children}
     </button>
   );
